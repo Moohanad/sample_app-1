@@ -10,7 +10,7 @@ render_views
     end
 
 it "should have the right title" do
-      get 'home'
+      get 'index'
       response.should have_selector("title",
                         :content => "Ruby on Rails Tutorial Sample App | Home")
     end
